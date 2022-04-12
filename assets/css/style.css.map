@@ -4,6 +4,7 @@
     "sources": [
         "style.scss",
         "base/_reset.scss",
+        "base/_main.scss",
     ],
     "names": [],
     "file": "style.css"
