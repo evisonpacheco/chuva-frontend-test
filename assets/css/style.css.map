@@ -5,6 +5,7 @@
         "style.scss",
         "base/_reset.scss",
         "base/_main.scss",
+        "components/_sidebar.scss"
     ],
     "names": [],
     "file": "style.css"
