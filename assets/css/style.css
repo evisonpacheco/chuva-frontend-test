@@ -199,34 +199,12 @@ body {
   border-radius: 100%;
 }
 
-.videos {
+.videos .details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.videos .video {
-  font-family: 'Roboto', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: left;
-}
-
-.videos .video__title {
-  color: #ED7839;
-  font-size: 1.25rem;
-  font-weight: 900;
-  letter-spacing: 0.05rem;
-  line-height: 1.5625rem;
-  margin-bottom: 1.1875rem;
-}
-
-.videos .details .download {
-  display: inline;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .videos .details .download .links {
@@ -290,12 +268,35 @@ body {
   text-transform: uppercase;
 }
 
-.videos .details .resume {
+.videos .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+.videos .video__title {
+  color: #ED7839;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+  line-height: 1.5625rem;
+  margin-bottom: 1.1875rem;
+}
+
+.videos .video .resume {
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
-.videos .details .resume__title {
+.videos .video .resume__title {
   background: #FDF1EB;
   border: 1px solid #ECECEC;
   border-radius: 3px 3px 0px 0px;
@@ -309,7 +310,7 @@ body {
   padding: 0.6875rem 0.9375rem 0.5625rem;
 }
 
-.videos .details .resume .infos {
+.videos .video .resume .infos {
   border: 1px solid #ECECEC;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -323,24 +324,24 @@ body {
   text-align: left;
 }
 
-.videos .details .resume .infos .info {
+.videos .video .resume .infos .info {
   margin-bottom: 2rem;
 }
 
-.videos .details .resume .infos .info__span {
+.videos .video .resume .infos .info__span {
   font-weight: 700;
 }
 
-.videos .details .resume .infos .authors {
+.videos .video .resume .infos .authors {
   font-size: 0.875rem;
   margin-bottom: 2rem;
 }
 
-.videos .details .resume .infos .authors__span {
+.videos .video .resume .infos .authors__span {
   font-weight: 700;
 }
 
-.videos .details .resume .infos .formation {
+.videos .video .resume .infos .formation {
   font-size: 0.625rem;
 }
 /*# sourceMappingURL=style.css.map */
