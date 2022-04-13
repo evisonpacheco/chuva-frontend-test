@@ -1,0 +1,123 @@
+.videos {
+  display: flex;
+  justify-content: space-between;
+
+  .video {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: left;
+
+    &__title {
+      color: #ED7839;
+      font-size: 1.25rem;
+      font-weight: 900;
+      letter-spacing: 0.05rem;
+      line-height: 1.5625rem;
+      margin-bottom: 1.1875rem;
+    }
+  }
+
+  .details {
+    
+    .download {
+        display: inline;
+
+      .links {
+        display: flex;
+        justify-content: right;    
+  
+        &__item--text {
+          align-items: center;
+          background: #ED7839;
+          border-radius: 4px;
+          display: flex;
+          height: 1.9375rem;
+          justify-content: center;
+          width: 7.5rem;
+        }
+  
+        &__item {
+          align-items: center;
+          background: #ED7839;
+          border-radius: 4px;
+          display: flex;
+          height: 1.9375rem;
+          justify-content: center;
+          width: 2.6875rem;
+  
+          &:not(:first-child) {
+            margin-left: 5px;
+          }
+        }
+    
+        &__image{
+          width: 1.1875rem;
+          height: 1.1875rem;
+        }
+      }
+  
+      &__aside {
+        color: #ED7839;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.05rem;
+        line-height: 1.5625rem;
+        text-align: right;
+        text-transform: uppercase;
+      }
+    }
+
+    .resume {
+      font-family: 'Roboto', sans-serif;
+      text-align: left;
+
+      &__title {
+        background: #FDF1EB;
+        border: 1px solid #ECECEC;
+        border-radius: 3px 3px 0px 0px;
+        box-sizing: border-box;
+        color: #4E4E4E;
+        font-size: 1.25rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.5625rem;
+        padding: 0.6875rem 0.9375rem 0.5625rem;
+      }
+
+      .infos {
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-family: 'Quicksand' ,sans-serif;
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        line-height: 0.875rem;
+        padding: 0.9375rem;
+        text-align: left;
+
+        .info {
+          margin-bottom: 2rem;
+          
+          &__span {
+            font-weight: 700;
+          }
+        }
+
+        .authors {
+          font-size: 0.875rem;
+          margin-bottom: 2rem;
+          
+          &__span {
+            font-weight: 700;
+          }
+        }
+
+        .formation {
+          font-size: 0.625rem;
+        }
+      }
+    }
+  }
+}
