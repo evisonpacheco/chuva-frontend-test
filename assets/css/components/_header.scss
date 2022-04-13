@@ -1,0 +1,49 @@
+.header {
+  align-items: center;
+  background: #FDF1EB;
+  color: #725C5C;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.25rem 0 1.8125rem;
+
+  .text {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    
+    &__text {
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1rem;
+      
+    }
+    
+    &__title {
+      font-size: 1.375rem;
+      font-weight: 400;
+      line-height: 1.625rem;
+    }
+  }
+
+  .language {
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    height: 2.125rem;
+    line-height: 1.125rem;
+    width: 6.0625rem;
+  }
+
+  .login {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    text-align: right;
+
+    &__avatar {
+      border-radius: 100%;
+    }
+  }
+}
