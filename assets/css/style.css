@@ -86,6 +86,9 @@ body {
   .content {
     width: 70%;
   }
+  .main {
+    padding: 0.5rem 0.5rem;
+  }
 }
 
 .sidebar {
@@ -322,6 +325,15 @@ body {
           justify-content: space-between;
 }
 
+.videos .details__title {
+  color: #ED7839;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+  line-height: 1.5625rem;
+  margin-bottom: 1.1875rem;
+}
+
 .videos .details .download .links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,13 +406,9 @@ body {
   text-align: left;
 }
 
-.videos .video__title {
-  color: #ED7839;
-  font-size: 1.25rem;
-  font-weight: 900;
-  letter-spacing: 0.05rem;
-  line-height: 1.5625rem;
-  margin-bottom: 1.1875rem;
+.videos .video__video {
+  height: 100%;
+  width: 100%;
 }
 
 .videos .video .resume {
@@ -455,6 +463,75 @@ body {
 
 .videos .video .resume .infos .formation {
   font-size: 0.625rem;
+}
+
+@media screen and (max-width: 800px) {
+  .videos .details {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .videos .video {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .videos .video__video {
+    margin-bottom: 1rem;
+  }
+  .videos .video .resume {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .videos .details {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .videos .details__title {
+    text-align: center;
+  }
+  .videos .details .download .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .videos .details .download .links__item--text {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .videos .details .download__aside {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .videos .video {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .videos .video__video {
+    margin-bottom: 1rem;
+  }
+  .videos .video .resume {
+    margin: 0;
+  }
+  .videos .video .resume__title {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .videos .video .resume .infos {
+    padding: 0.5rem;
+  }
 }
 
 .abstract {

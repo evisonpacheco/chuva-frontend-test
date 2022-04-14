@@ -6,6 +6,15 @@
     display: flex;
     justify-content: space-between;
 
+    &__title {
+      color: $main-color;
+      font-size: $size-20;
+      font-weight: 900;
+      letter-spacing: 0.05rem;
+      line-height: 1.5625rem;
+      margin-bottom: 1.1875rem;
+    }
+    
     .download {
 
       .links {
@@ -61,13 +70,9 @@
     font-family: $font-one;
     text-align: left;
 
-    &__title {
-      color: $main-color;
-      font-size: $size-20;
-      font-weight: 900;
-      letter-spacing: 0.05rem;
-      line-height: 1.5625rem;
-      margin-bottom: 1.1875rem;
+    &__video {
+      height: 100%;
+      width: 100%;
     }
 
     .resume {

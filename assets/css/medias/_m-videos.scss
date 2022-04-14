@@ -1,0 +1,79 @@
+@import  '../base/variables';
+
+@media screen and (max-width: 800px) {
+  .videos {
+
+    .details {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .video {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      &__video {
+        margin-bottom: 1rem;
+      }
+
+      .resume {
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .videos {
+
+    .details {
+      flex-wrap: wrap;
+
+      &__title {
+        text-align: center;
+      }
+
+      .download {
+
+        .links {
+          justify-content: center;
+          flex-wrap: wrap;
+
+          &__item--text {
+            width: 100%;
+            margin-bottom: 0.5rem;
+          }
+        }
+
+        &__aside {
+          font-size: $size-12;
+          text-align: center;
+        }
+          
+      }
+    }
+
+    .video {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      &__video {
+        margin-bottom: 1rem;
+      }
+
+      .resume {
+        margin: 0;
+
+        &__title {
+          font-size: $size-16;
+          padding: 0.2rem 0.5rem;
+        }
+
+        .infos {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+}
