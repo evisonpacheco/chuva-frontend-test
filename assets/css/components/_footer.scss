@@ -1,0 +1,30 @@
+@import '../base/variables';
+
+.footer {
+  align-items: top;
+  display: flex;
+  justify-content: center;
+
+  &__image {
+    margin-left: 0.5rem;
+  }
+
+  &-content {
+    font-family: $font-one;
+    font-size: $size-14;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.125rem;
+    margin-left: 0.5rem;
+    text-align: left;
+    max-width: 70%;
+
+    &__text {
+      margin-top: 0.5rem ;
+    }
+
+    &__span {
+      font-weight: 600;
+    }
+  }
+}

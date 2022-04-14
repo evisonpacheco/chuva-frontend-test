@@ -539,4 +539,39 @@ body {
 .discussions .discussion .topic-social__item:not(:first-child) {
   margin-left: 0.5rem;
 }
+
+.footer {
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__image {
+  margin-left: 0.5rem;
+}
+
+.footer-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.125rem;
+  margin-left: 0.5rem;
+  text-align: left;
+  max-width: 70%;
+}
+
+.footer-content__text {
+  margin-top: 0.5rem;
+}
+
+.footer-content__span {
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */
