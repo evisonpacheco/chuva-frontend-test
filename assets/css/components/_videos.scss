@@ -1,3 +1,5 @@
+@import  '../base/variables';
+
 .videos {
 
   .details {
@@ -12,7 +14,7 @@
   
         &__item--text {
           align-items: center;
-          background: #ED7839;
+          background: $main-color;
           border-radius: 4px;
           display: flex;
           height: 1.9375rem;
@@ -22,7 +24,7 @@
   
         &__item {
           align-items: center;
-          background: #ED7839;
+          background: $main-color;
           border-radius: 4px;
           display: flex;
           height: 1.9375rem;
@@ -41,8 +43,8 @@
       }
   
       &__aside {
-        color: #ED7839;
-        font-size: 0.875rem;
+        color: $main-color;
+        font-size: $size-14;
         font-style: normal;
         font-weight: 500;
         letter-spacing: 0.05rem;
@@ -56,12 +58,12 @@
   .video {
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-one;
     text-align: left;
 
     &__title {
-      color: #ED7839;
-      font-size: 1.25rem;
+      color: $main-color;
+      font-size: $size-20;
       font-weight: 900;
       letter-spacing: 0.05rem;
       line-height: 1.5625rem;
@@ -69,19 +71,19 @@
     }
 
     .resume {
-      border: 1px solid #ECECEC;
+      border: 1px solid $border;
       box-sizing: border-box;
       border-radius: 3px;
-      font-family: 'Roboto', sans-serif;
+      font-family: $font-one;
       margin-left: 1.9375rem;
       text-align: left;
 
       &__title {
-        background: #FDF1EB;
+        background: $background;
         border-radius: 3px 3px 0px 0px;
         box-sizing: border-box;
-        color: #4E4E4E;
-        font-size: 1.25rem;
+        color: $div-title;
+        font-size: $size-20;
         font-weight: 500;
         letter-spacing: 0em;
         line-height: 1.5625rem;
@@ -89,8 +91,8 @@
       }
 
       .infos {
-        font-family: 'Quicksand' ,sans-serif;
-        font-size: 0.75rem;
+        font-family: $font-two;
+        font-size: $size-12;
         font-weight: 400;
         letter-spacing: 0.02em;
         line-height: 0.875rem;
@@ -106,7 +108,7 @@
         }
 
         .authors {
-          font-size: 0.875rem;
+          font-size: $size-14;
           margin-bottom: 2rem;
           
           &__span {
@@ -115,7 +117,7 @@
         }
 
         .formation {
-          font-size: 0.625rem;
+          font-size: $size-10;
         }
       }
     }
