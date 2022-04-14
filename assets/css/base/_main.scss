@@ -13,3 +13,23 @@ body {
 .main {
   padding: 1.25rem 2.6875rem ;
 }
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 25%;
+  }
+
+  .content {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    width: 30%;
+  }
+
+  .content {
+    width: 70%;
+  }
+}
