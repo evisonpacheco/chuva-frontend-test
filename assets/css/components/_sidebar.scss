@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .sidebar{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 
@@ -6,8 +8,8 @@
     background: linear-gradient(to bottom, #FFB354 0%, #EE7A3A 100%);
     color: #FFFFFF;
     display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.875rem;
+    font-family: $font-one;
+    font-size: $size-30;
     font-style: normal;
     font-weight: 700;
     height: 4.25rem;
@@ -16,8 +18,7 @@
   }
 
   &__image {
-    height: 16.125rem;
-    width: 13.75rem;
+    width: 100%;
   }
 
   .menu {
@@ -29,7 +30,7 @@
       height: 2.0625rem;
 
       &:hover {
-        background: #FDF1EB;
+        background: $background;
         border: none;
         border-left: 5px solid;
         border-image: linear-gradient(to bottom, #FFB455 0%, #ED7839 100%) 1;
@@ -37,16 +38,17 @@
     }
 
     &__active{
-      background: #FDF1EB;
+      background: $background;
       border: none;
       border-left: 5px solid;
       border-image: linear-gradient(to bottom, #FFB455 0%, #ED7839 100%) 1;
+      box-sizing: border-box;
     }
 
     &__text {
       color: #725C5C;
-      font-family: 'Quicksand';
-      font-size: 0.9375rem;
+      font-family: $font-two;
+      font-size: $size-15;
       font-style: normal;
       font-weight: 500;
       line-height: 1.1875rem;

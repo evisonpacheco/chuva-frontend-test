@@ -85,7 +85,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 700;
@@ -97,8 +97,7 @@ body {
 }
 
 .sidebar__image {
-  height: 16.125rem;
-  width: 13.75rem;
+  width: 100%;
 }
 
 .sidebar .menu__item {
@@ -130,11 +129,13 @@ body {
   -o-border-image: linear-gradient(to bottom, #FFB455 0%, #ED7839 100%) 1;
      border-image: -webkit-gradient(linear, left top, left bottom, from(#FFB455), to(#ED7839)) 1;
      border-image: linear-gradient(to bottom, #FFB455 0%, #ED7839 100%) 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .sidebar .menu__text {
   color: #725C5C;
-  font-family: 'Quicksand';
+  font-family: "Quicksand", sans-serif;
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 500;
