@@ -1,0 +1,44 @@
+@import '../base/variables';
+
+@media screen and (max-width: 800px) {
+  .discussions {
+    &__title {
+      font-size: $size-16;
+    }
+
+    .discussion {
+
+      &-images {
+        
+        &__item:not(:first-child) {
+          padding-left: 0.3rem;
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .discussions {
+    &__title {
+      font-size: $size-16;
+    }
+
+    .discussion {
+
+      &-images {
+        
+        &__item:not(:first-child) {
+          padding-left: 0.3rem;
+        }
+      }
+
+      .topic {
+        margin: 0.5rem;
+        padding: 0.5rem;
+      }
+    }
+
+  }
+}

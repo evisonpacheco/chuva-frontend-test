@@ -731,6 +731,28 @@ body {
   margin-left: 0.5rem;
 }
 
+@media screen and (max-width: 800px) {
+  .discussions__title {
+    font-size: 1rem;
+  }
+  .discussions .discussion-images__item:not(:first-child) {
+    padding-left: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .discussions__title {
+    font-size: 1rem;
+  }
+  .discussions .discussion-images__item:not(:first-child) {
+    padding-left: 0.3rem;
+  }
+  .discussions .discussion .topic {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
 .footer {
   -webkit-box-align: top;
       -ms-flex-align: top;
