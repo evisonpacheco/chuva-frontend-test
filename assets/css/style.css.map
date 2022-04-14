@@ -7,7 +7,8 @@
         "base/_main.scss",
         "components/_sidebar.scss",
         "components/_header.scss",
-        "components/_videos.scss"
+        "components/_videos.scss",
+        "components/_resume.scss",
         "base/_variables.scss"
     ],
     "names": [],
