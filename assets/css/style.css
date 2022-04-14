@@ -190,7 +190,7 @@ body {
 }
 
 .header .text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: left;
 }
 
@@ -208,7 +208,7 @@ body {
 
 .header .language {
   border-radius: 3px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   height: 2.125rem;
@@ -220,7 +220,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.125rem;
