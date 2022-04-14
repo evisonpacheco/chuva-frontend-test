@@ -2,6 +2,7 @@
 
 .sidebar{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  width: 15%;
 
   &__title {
     align-items: center;
@@ -56,3 +57,43 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    min-width: 25%;
+
+    &__title {
+      font-size: $size-24;
+      height: 3.5rem;
+      text-align: center;
+    }
+
+    .menu {
+      &__text {
+        font-size: $size-14;
+        margin-left: 0.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    min-width: 30%;
+
+    &__title {
+      font-size: $size-16;
+      height: 3.5rem;
+      text-align: center;
+    }
+
+    .menu {
+      &__text {
+        font-size: $size-14;
+        margin-left: 0.3rem;
+      }
+    }
+  }
+}
+
+
