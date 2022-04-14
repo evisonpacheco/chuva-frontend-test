@@ -289,13 +289,17 @@ body {
 }
 
 .videos .video .resume {
+  border: 1px solid #ECECEC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
   font-family: 'Roboto', sans-serif;
+  margin-left: 1rem;
   text-align: left;
 }
 
 .videos .video .resume__title {
   background: #FDF1EB;
-  border: 1px solid #ECECEC;
   border-radius: 3px 3px 0px 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -308,10 +312,6 @@ body {
 }
 
 .videos .video .resume .infos {
-  border: 1px solid #ECECEC;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 3px;
   font-family: 'Quicksand' ,sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
