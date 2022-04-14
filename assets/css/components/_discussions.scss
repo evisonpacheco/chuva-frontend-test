@@ -132,6 +132,10 @@
         justify-content: flex-start;
         margin-top: 0.6875rem;
 
+        &__image:hover {
+          cursor: pointer;
+        }
+
         &__item:not(:first-child) {
           margin-left: 0.5rem;
         }

@@ -532,6 +532,10 @@ body {
   margin-top: 0.6875rem;
 }
 
+.discussions .discussion .topic-social__image:hover {
+  cursor: pointer;
+}
+
 .discussions .discussion .topic-social__item:not(:first-child) {
   margin-left: 0.5rem;
 }
