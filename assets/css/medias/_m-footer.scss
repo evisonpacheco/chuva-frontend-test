@@ -1,0 +1,33 @@
+@import '../base/variables';
+
+@media screen and (max-width:800px) {
+  .footer {
+    flex-wrap: wrap;
+
+    &__image {
+      height: 200px;
+      width: 200px;
+    }
+
+    &-content {
+      font-size: $size-12;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:400px) {
+  .footer {
+    flex-wrap: wrap;
+
+    &__image {
+      height: 200px;
+      width: 200px;
+    }
+
+    &-content {
+      font-size: $size-12;
+      width: 100%;
+    }
+  }
+}
