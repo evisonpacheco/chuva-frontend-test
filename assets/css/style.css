@@ -565,11 +565,19 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 22.75px;
+  margin-top: 1rem;
   text-align: left;
 }
 
-.abstract-expandable__text:not(:first-child) {
+.abstract-expandable-more__text {
+  color: #5C5C5C;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 22.75px;
   margin-top: 1rem;
+  text-align: left;
 }
 
 .discussions {
