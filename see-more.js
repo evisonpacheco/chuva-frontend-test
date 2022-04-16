@@ -1,6 +1,6 @@
 const button = document.querySelector(".abstract-expandable__button-js");
 
-button.onclick = () => { seeMore() };
+button.onclick = () => { seeMore() }
 
 function seeMore() {
   let points = document.querySelector(".abstract-expandable__points-js");
