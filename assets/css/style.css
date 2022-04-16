@@ -569,6 +569,10 @@ body {
   text-align: left;
 }
 
+.abstract-expandable-more {
+  display: none;
+}
+
 .abstract-expandable-more__text {
   color: #5C5C5C;
   font-family: "Quicksand", sans-serif;
@@ -578,6 +582,16 @@ body {
   line-height: 22.75px;
   margin-top: 1rem;
   text-align: left;
+}
+
+.abstract-expandable__button {
+  background: none;
+  border: none;
+  color: #ED7839;
+  display: inline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 .discussions {

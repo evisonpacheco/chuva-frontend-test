@@ -33,7 +33,8 @@
     }
 
     &-more {
-
+      display: none;
+      
       &__text {
         color: $div-content;
         font-family: $font-two;
@@ -44,6 +45,16 @@
         margin-top: 1rem;
         text-align: left;
       }
+    }
+
+    &__button {
+      background: none;
+      border: none;
+      color: $main-color;
+      display: inline;
+      font-family: $font-two;
+      font-size: $size-14;
+      font-weight: 600;
     }
   }
 }
