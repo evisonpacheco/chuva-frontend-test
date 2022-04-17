@@ -25,9 +25,11 @@
           align-items: center;
           background: $main-color;
           border-radius: 4px;
+          color: white;
+          cursor: pointer;
           display: flex;
           height: 1.9375rem;
-          justify-content: center;
+          justify-content: space-evenly;
           width: 7.5rem;
         }
   
@@ -35,6 +37,7 @@
           align-items: center;
           background: $main-color;
           border-radius: 4px;
+          cursor: pointer;
           display: flex;
           height: 1.9375rem;
           justify-content: center;

@@ -349,13 +349,15 @@ body {
           align-items: center;
   background: #ED7839;
   border-radius: 4px;
+  color: white;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 1.9375rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 7.5rem;
 }
 
@@ -365,6 +367,7 @@ body {
           align-items: center;
   background: #ED7839;
   border-radius: 4px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
