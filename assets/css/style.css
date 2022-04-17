@@ -805,6 +805,7 @@ body {
 
 .discussions .discussion .topic-submitted .submitted {
   background-image: url("../images/discussions/topic-background.svg");
+  background-size: cover;
   border: 1px solid #E7E7E7;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
