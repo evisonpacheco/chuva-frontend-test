@@ -1,25 +1,16 @@
 const topicList = document.querySelectorAll(".topic-clickable-js");
-const expandedList = document.querySelectorAll(".expanded");
+const expandedList = document.querySelectorAll(".expanded-js");
 
-for (let i = 0; i < topicList.length; i++) {
-  const topicIndex = topicList[i];
-
-  topicIndex.onclick = () => { expandTopic() }
+function showContent(index) {
+  if (expandedList[index].style.display === "block") {
+    expandedList[index].style.display = "none" 
+  } else {
+    expandedList[index].style.display = "block"
+  }
 }
 
-function expandTopic() {
-  for (let i = 0; i < expandedList.length; i++) {
-    const expandedIndex = expandedList[i];   
-
-    if (expandedIndex.style.display === "block") {
-      expandedIndex.style.display = "none" 
-    } else {
-      expandedIndex.style.display = "block"
-    } 
-  }  
+for (let index = 0; index < topicList.length; index++) {
+  const topicIndex = topicList[index];
   
-    
-  
-
-  
+  topicIndex.addEventListener("click", () => { showContent(index) });
 }
