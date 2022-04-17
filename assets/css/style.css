@@ -222,6 +222,7 @@ body {
 }
 
 .content .header .language {
+  background-color: #FDF1EB;
   border-radius: 3px;
   font-family: "Quicksand", sans-serif;
   font-size: 0.875rem;
@@ -229,6 +230,10 @@ body {
   height: 2.125rem;
   line-height: 1.125rem;
   width: 6.0625rem;
+}
+
+.content .header .language__option::after {
+  content: "";
 }
 
 .content .header .login {
