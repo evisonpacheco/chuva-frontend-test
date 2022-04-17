@@ -1035,7 +1035,7 @@ body {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .discussions__title {
     font-size: 1rem;
   }
@@ -1044,7 +1044,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .discussions__title {
     font-size: 1rem;
   }
@@ -1054,6 +1054,9 @@ body {
   .discussions .discussion .topic {
     margin: 0.5rem;
     padding: 0.5rem;
+  }
+  .discussions .discussion .topic .expanded .info__image {
+    margin-left: 0.5rem;
   }
 }
 

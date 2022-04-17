@@ -1,6 +1,6 @@
 @import '../base/variables';
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .discussions {
     &__title {
       font-size: $size-16;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .discussions {
     &__title {
       font-size: $size-16;
@@ -37,6 +37,16 @@
       .topic {
         margin: 0.5rem;
         padding: 0.5rem;
+
+        .expanded {
+
+          .info {
+
+            &__image {
+              margin-left: 0.5rem;
+            }
+          }
+        }
       }
     }
 
