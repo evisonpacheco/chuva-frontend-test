@@ -349,13 +349,25 @@
   
           &__title {
             color: $div-content;
+            display: flex;
             font-family: $font-two;
             font-size: $size-12;
             font-weight: 700;
+            justify-content: space-between;
             letter-spacing: 0em;
             line-height: 15px;
             padding: 1.0625rem 1.5rem 0;
             text-align: left;
+
+            .info {
+              color: $main-color;
+              display: flex;
+              align-items: center;
+
+              &__image {
+                margin-left: 2rem;
+              }
+            }
   
           }
   
