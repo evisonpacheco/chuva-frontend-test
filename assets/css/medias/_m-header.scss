@@ -1,6 +1,6 @@
 @import '../base/variables';
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .content {
 
     .header {
@@ -14,7 +14,7 @@
         }
 
         &__title {
-          font-size: $size-16;
+          font-size: $size-18;
           line-height: 100%;
           margin-bottom: 0.5rem;
         }
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .content {
 
     .header {
@@ -55,7 +55,7 @@
         }
 
         &__title {
-          font-size: $size-16;
+          font-size: $size-18;
           line-height: 100%;
           margin-bottom: 0.5rem;
           text-align: center;
