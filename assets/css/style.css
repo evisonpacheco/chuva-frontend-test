@@ -588,6 +588,7 @@ body {
   background: none;
   border: none;
   color: #ED7839;
+  cursor: pointer;
   display: inline;
   font-family: "Quicksand", sans-serif;
   font-size: 0.875rem;
