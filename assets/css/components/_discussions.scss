@@ -19,6 +19,188 @@
   }
 
   .discussion {
+    
+    .new-topic {
+      box-sizing: border-box;
+      display: none;
+      padding: 1.0625rem 1rem 0;
+
+      &__text {
+        color: $div-content;
+        font-family: $font-two;
+        font-size: $size-14;
+        font-weight: 400;
+        letter-spacing: 0em;
+        line-height: 18px;
+        text-align: center;
+      }
+
+      &__title {
+        color: #ED7839;
+        font-family: $font-one;
+        font-size: $size-16;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 19px;
+        text-align: left;
+      }
+
+      &__input--subject {
+        box-sizing: border-box;
+        font-family: $font-two;
+        font-size: $size-14;
+        font-weight: 400;
+        letter-spacing: 0em;
+        line-height: 18px;
+        padding: 0.6875rem 1.4375rem ;
+        text-align: left;
+        width: 100%;
+      }
+
+      &__input--content {
+        box-sizing: border-box;
+        font-family: $font-two;
+        font-size: $size-14;
+        font-weight: 400;
+        letter-spacing: 0em;
+        line-height: 18px;
+        margin-bottom: 0rem;
+        text-align: left;
+        width: 100%;
+        height: 5.125rem;
+      }
+
+      .lowerbar {
+        align-items: center;
+        background: #EAF1F2;
+        border: 1px solid #CCCCCC;
+        display: flex;
+        height: 2rem;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        &__bold {
+          margin-left: 1rem;
+          font-weight: bold;
+        }
+
+        &__italic {
+          margin-left: 1rem;
+          font-style: italic;
+        }
+
+        &__button {
+          align-items: center;
+          background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+          border: transparent;
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+          color: #FFFFFF;
+          cursor: pointer;
+          display: flex;
+          font-family: $font-two;
+          font-size: $size-15;
+          font-style: normal;
+          font-weight: 700;
+          justify-content: space-around;
+          height: 2rem;
+          line-height: 107%;
+          text-align: center;
+          text-transform: capitalize;
+          width: 8.3125rem;          
+        }
+      }
+
+      &__line {
+        border: 1px solid #E7E7E7;         
+        margin: 0.9375rem 0 1.875rem;
+      }
+    }
+
+    .topic-submitted {
+      display: none;
+      margin: 1rem 0;
+      
+      &__title {
+        color: $main-color;
+        font-family: $font-one;
+        font-size: $size-18;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 21px;
+        text-align: center;
+      }
+
+      &__text {
+        font-family: $font-two;
+        font-size: $size-14;
+        font-weight: 400;
+        letter-spacing: 0em;
+        line-height: 19px;
+        margin-top: 1.125rem;
+        text-align: center;
+      }
+
+      &__link {
+        color: $main-color;
+        display: block;
+        font-family: $font-two;
+        font-size: $size-14;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 19px;
+        margin-top: 1.8125rem;
+        text-align: center;
+      }
+
+      &__line {
+        border: 1px solid #E7E7E7;  
+        position: relative;
+        top: 27px;
+        width: 95%;
+        z-index: -1;
+      }
+
+      &__button {
+        align-items: center;
+        background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        color: #FFFFFF;
+        cursor: pointer;
+        display: flex;
+        font-family: $font-two;
+        font-size: $size-15;
+        font-style: normal;
+        font-weight: 700;
+        justify-content: space-around;
+        height: 2rem;
+        line-height: 107%;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: lowercase;
+        width: 14.6875rem;        
+      }
+
+      .submitted {
+        background-image: url("../images/discussions/topic-background.svg");
+        border: 1px solid #E7E7E7;
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
+        margin: 1rem 0.9375rem 0.9375rem;
+        padding: 1.5rem 0;
+        text-align: center;
+
+        &__title {
+          margin: 0.5rem 0;
+        }
+
+        &__link {
+          color: $main-color;
+        }
+      }
+    }
 
     &__title {
       color: $main-color;
@@ -69,6 +251,7 @@
       border-radius: 4px;
       box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
       color: #FFFFFF;
+      cursor: pointer;
       display: flex;
       font-family: $font-two;
       font-size: $size-15;
