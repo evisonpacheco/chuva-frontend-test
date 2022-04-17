@@ -465,7 +465,7 @@ body {
   font-size: 0.625rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
   .videos .details {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -489,7 +489,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .videos .details {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
