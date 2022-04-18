@@ -232,10 +232,6 @@ body {
   width: 6.0625rem;
 }
 
-.content .header .language__option::after {
-  content: "";
-}
-
 .content .header .login {
   display: -webkit-box;
   display: -ms-flexbox;
