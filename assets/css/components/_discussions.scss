@@ -151,6 +151,7 @@
 
       &__button {
         @include button();
+        border-radius: 4px;
         margin: 0 auto;
         text-transform: lowercase;
         width: 14.6875rem;        
@@ -221,6 +222,7 @@
 
     &__button {
       @include button();
+      border-radius: 4px;
       margin: 0.875rem auto 0.9375rem;
       text-transform: lowercase;
       width: 8.3125rem;

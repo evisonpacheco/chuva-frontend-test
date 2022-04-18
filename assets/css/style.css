@@ -801,6 +801,7 @@ body {
   height: 2rem;
   line-height: 107%;
   text-align: center;
+  border-radius: 4px;
   margin: 0 auto;
   text-transform: lowercase;
   width: 14.6875rem;
@@ -895,6 +896,7 @@ body {
   height: 2rem;
   line-height: 107%;
   text-align: center;
+  border-radius: 4px;
   margin: 0.875rem auto 0.9375rem;
   text-transform: lowercase;
   width: 8.3125rem;
